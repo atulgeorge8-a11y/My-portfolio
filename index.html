@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atul Thomas George | Portfolio</title>
+    <meta name="description" content="Personal portfolio of Atul Thomas George, showcasing skills and projects.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bg-orb"></div>
+    <div class="noise-overlay"></div>
+
+    <nav class="navbar">
+        <div class="nav-content">
+            <a href="#" class="logo">ATG.</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section id="hero" class="hero">
+            <canvas id="hero-particles"></canvas>
+            <div class="hero-content">
+                <p class="greeting animate-enter" style="--delay: 0.1s">Hello, I'm</p>
+                <h1 class="name animate-enter" style="--delay: 0.3s">Atul Thomas George</h1>
+                <h2 class="title animate-enter" style="--delay: 0.5s">Crafting <span class="highlight">Digital Experiences</span> & <span class="highlight">Smart Solutions</span></h2>
+                <p class="subtitle animate-enter" style="--delay: 0.7s">A passionate ECS Engineer blending software engineering and electronics to build innovative, user-centric products.</p>
+                <div class="hero-cta animate-enter" style="--delay: 0.9s">
+                    <a href="#projects" class="btn btn-primary">View Work</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about section-fade">
+            <div class="section-container about-grid">
+                <div class="about-content">
+                    <h2 class="section-title">About Me</h2>
+                    <p class="about-text">I am a passionate Electronics and Computer Science (ECS) Engineer with a deep interest in building modern web applications and smart electronic devices. My approach focuses on bridging the gap between hardware and software, creating robust solutions that solve real-world problems.</p>
+                    <p class="about-text">Whether I'm designing a high-performance web portal or engineering an automated electronic device, I strive for clean architecture, seamless user experiences, and impactful results.</p>
+                </div>
+                <div class="about-visuals">
+                    <div class="floating-shape shape-1"></div>
+                    <div class="floating-shape shape-2"></div>
+                    <div class="glass-card mini-card card-top">
+                        <div class="card-icon">💻</div>
+                        <span>Software Engineering</span>
+                    </div>
+                    <div class="glass-card mini-card card-bottom">
+                        <div class="card-icon">⚙️</div>
+                        <span>Hardware Integration</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills section-fade">
+            <div class="section-container">
+                <h2 class="section-title text-center">My Toolkit</h2>
+                
+                <div class="skills-category-container">
+                    <!-- Frontend -->
+                    <div class="skills-category glass-card">
+                        <h3>Frontend</h3>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>HTML & CSS</span>
+                                <span>45%</span>
+                            </div>
+                            <div class="progress-bar-bg">
+                                <div class="progress-bar-fill" data-width="45%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>JavaScript</span>
+                                <span>40%</span>
+                            </div>
+                            <div class="progress-bar-bg">
+                                <div class="progress-bar-fill" data-width="40%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Backend & Core -->
+                    <div class="skills-category glass-card">
+                        <h3>Backend & Core</h3>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Java</span>
+                                <span>35%</span>
+                            </div>
+                            <div class="progress-bar-bg">
+                                <div class="progress-bar-fill" data-width="35%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>C / C++</span>
+                                <span>45%</span>
+                            </div>
+                            <div class="progress-bar-bg">
+                                <div class="progress-bar-fill" data-width="45%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Python</span>
+                                <span>30%</span>
+                            </div>
+                            <div class="progress-bar-bg">
+                                <div class="progress-bar-fill" data-width="30%"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tools & Hardware -->
+                    <div class="skills-category glass-card">
+                        <h3>Tools & Hardware</h3>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Microcontrollers & IoT</span>
+                                <span>48%</span>
+                            </div>
+                            <div class="progress-bar-bg">
+                                <div class="progress-bar-fill" data-width="48%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Sensors & Electronics</span>
+                                <span>42%</span>
+                            </div>
+                            <div class="progress-bar-bg">
+                                <div class="progress-bar-fill" data-width="42%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Git & GitHub</span>
+                                <span>35%</span>
+                            </div>
+                            <div class="progress-bar-bg">
+                                <div class="progress-bar-fill" data-width="35%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects section-fade">
+            <div class="section-container">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card glass-card">
+                        <div class="project-image">
+                            <img src="C:\Users\atulg\.gemini\antigravity\brain\6ebf0248-3db9-4d22-986a-2c7df40f935b\project_grievance_1777461128100.png" alt="Student Grievance Redressal System">
+                        </div>
+                        <div class="project-info">
+                            <h3>Student Grievance Redressal System</h3>
+                            <p>A secure, scalable web portal designed to streamline the grievance reporting process for students. Features a secure login system and an AI-powered chatbot for immediate assistance.</p>
+                            <div class="project-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JS</span>
+                                <span>AI Integration</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/atulgeorge8-a11y/Student-Grievance-Readressal-System" target="_blank" rel="noopener noreferrer" class="btn-sm btn-outline">GitHub</a>
+                                <a href="#" class="btn-sm btn-solid">Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card glass-card">
+                        <div class="project-image">
+                            <img src="C:\Users\atulg\.gemini\antigravity\brain\6ebf0248-3db9-4d22-986a-2c7df40f935b\project_dustbin_1777461181364.png" alt="Smart Dustbin">
+                        </div>
+                        <div class="project-info">
+                            <h3>Smart Dustbin</h3>
+                            <p>An innovative electronics project utilizing microcontrollers and sensors to create an automated waste management solution. Automatically opens upon detecting proximity.</p>
+                            <div class="project-tags">
+                                <span>C</span>
+                                <span>Electronics</span>
+                                <span>Sensors</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn-sm btn-solid">Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact section-fade">
+            <div class="section-container">
+                <h2 class="section-title">Let's Connect</h2>
+                <div class="glass-card contact-card">
+                    <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.</p>
+                    <a href="mailto:contact@example.com" class="btn btn-primary">Say Hello</a>
+                    <a href="Atul_Thomas_George_Resume.pdf" download="Atul_Thomas_George_Resume.pdf" class="btn btn-secondary">Download Resume</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Atul Thomas George. All rights reserved.</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
